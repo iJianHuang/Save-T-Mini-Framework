@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Com.HD
 {
-    internal static class SaveTs
+    internal static class SaveT
     {
         private static List<T> GetExtraTs<T>(List<T> firstTs, List<T> secondTs, Func<T, T, bool> isEquals)
         {
